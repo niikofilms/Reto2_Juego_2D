@@ -59,7 +59,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 44
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -235,10 +235,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Gost Particles (48x16)_3: -8580473854892813536
-      Gost Particles (48x16)_2: -4129204854761752304
       Gost Particles (48x16)_0: 7203001037595464775
       Gost Particles (48x16)_1: 5000928877878063455
+      Gost Particles (48x16)_2: -4129204854761752304
+      Gost Particles (48x16)_3: -8580473854892813536
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

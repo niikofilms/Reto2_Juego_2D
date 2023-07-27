@@ -59,7 +59,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 44
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -235,10 +235,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Desappear (44x30)_2: 3033054285088897030
       Desappear (44x30)_0: -5097002624622362120
-      Desappear (44x30)_3: 1963251448663112220
       Desappear (44x30)_1: -2432630741062489389
+      Desappear (44x30)_2: 3033054285088897030
+      Desappear (44x30)_3: 1963251448663112220
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
