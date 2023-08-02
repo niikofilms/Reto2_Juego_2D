@@ -12,13 +12,14 @@ public class MovimientoPersonaje : MonoBehaviour
     private bool enElsuelo = false;
     private Rigidbody2D cuerpoRigido;
     private Animator animaciones;
-
+    private AudioSource audioSalto;
     
     void Awake()
     {
         posicionInicio = transform.position;
         cuerpoRigido = GetComponent<Rigidbody2D>();   
         animaciones = GetComponent<Animator>();
+        audioSalto = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -28,6 +29,7 @@ public class MovimientoPersonaje : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && enElsuelo)
         {
+            audioSalto.Play();
             cuerpoRigido.AddForce(new Vector2(0f, fuerzaSalto), ForceMode2D.Impulse);
             enElsuelo = false;
         }
