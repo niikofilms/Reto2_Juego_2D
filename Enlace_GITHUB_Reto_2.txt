@@ -1,0 +1,3 @@
+RETO 2 - JUEGO 2D - Diego Nicolás García Ortega
+https://github.com/niikofilms/Reto2_Juego_2D.git
+GRUPO V - Desarrollo de Videojuegos - Nivel: Básico
